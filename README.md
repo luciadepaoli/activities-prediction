@@ -16,6 +16,15 @@ For more information, see the [thesis](xxx).
 The project is structured as follows:
 - `script/`:
   - `anomaly_function.py`: definition of the anomalies function created.
-  - 
+  - `data_generation.py`: script for the generation of new data anomaly-free.
+  - `requirements_dll.py`: requirements for the deep learning module.
+  - `requirements.py`: general requirements and functions.
+  - `script_errori.py`: script for the anomalies creation.
 
-1. `new_data.ipynb` creates 
+- Jupyter notebooks:
+  - `first_data.ipynb`: creates the first set of data.
+  - `new_data.ipynb`: notebook for the creation of new data on a daily base.
+  - `download_dataframe.ipynb`: download of the activity table / event log.
+  - `DL/full_process.ipynb`: preprocessing, model creation and model fitting.
+  - `DL/prediction_suffix.ipynb`: suffix prediction using models created.
+  - `DL/prediction.ipynb`: next timestep attributes prediction using models created.
